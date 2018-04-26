@@ -1,17 +1,52 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+	<ion-navbar text-center>
+		<img src="https://inimagens.azureedge.net/logo.png">
+	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+	<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+
+	<ion-grid text-center class="blocos">
+		<ion-row>
+			<ion-col class="balada">
+				<img src="https://inimagens.azureedge.net/in_icon-balada3.png" class="icones-segmento">
+				<div>Balada</div>
+			</ion-col>
+			<ion-col class="educacao">
+				<img src="https://inimagens.azureedge.net/in_icon-educacao1.png" class="icones-segmento">
+				<div>Educação</div>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="esporte">
+				<img src="https://inimagens.azureedge.net/in_icon-esporte1.png" class="icones-segmento">
+				<div>Esporte</div>
+			</ion-col>
+			<ion-col class="feira">
+				<img src="https://inimagens.azureedge.net/in_icon-feira1.png" class="icones-segmento">
+				<div>Feira</div>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="show">
+				<img src="https://inimagens.azureedge.net/in_icon-show1.png" class="icones-segmento">
+				<div>Show</div>
+			</ion-col>
+			<ion-col class="teatro">
+				<img src="https://inimagens.azureedge.net/in_icon-teatro1.png" class="icones-segmento">
+				<div>Teatro</div>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="especial">
+				<img src="https://inimagens.azureedge.net/in_icon-espec1.png" class="icones-segmento">
+				<div>Especial</div>
+			</ion-col>
+			<ion-col class="datasComemorativas">
+				<img src="https://inimagens.azureedge.net/winter.png" class="icones-segmento">
+				<div>Festivais de Inverno</div>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>
