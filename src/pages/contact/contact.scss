@@ -1,3 +1,39 @@
 page-contact {
-
+  .balada{
+    color: #f7323f;
+  }
+  .bb{
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    &.bb-small{
+      border-bottom-width: 3px;
+    }
+    .balada &.bb-categoria, .balada &.bb-categoria{
+      border-bottom-color: #f7323f;
+    }
+    .educacao &.bb-categoria, .educacao &.bb-categoria{
+      border-bottom-color: #0098ce;
+    }
+    .esporte &.bb-categoria, .esporte &.bb-categoria{
+      border-bottom-color: #82BC00;
+    }
+    .feira &.bb-categoria, .feira &.bb-categoria{
+      border-bottom-color: #513628;
+    }
+    .show &.bb-categoria, .show &.bb-categoria{
+      border-bottom-color: #ef7622;
+    }
+    .teatro &.bb-categoria, .teatro &.bb-categoria{
+      border-bottom-color: #593c81;
+    }
+    .especial &.bb-categoria, .especial &.bb-categoria{
+      border-bottom-color: #da3ab3;
+    }
+    .reveillon &.bb-categoria, .reveillon &.bb-categoria{
+      border-bottom-color: #edaa00;
+    }
+    &.bb-cinza{
+      border-bottom-color: #C9C8C7;
+    }
+  }
 }
